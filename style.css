@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Stardos Stencil';
+    src: url('./fonts/StardosStencil-Bold.woff2') format('woff2'),
+        url('./fonts/StardosStencil-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Stardos Stencil';
+    src: url('./fonts/StardosStencil-Regular.woff2') format('woff2'),
+        url('./fonts/StardosStencil-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --bg-color-dark: #232323;
+    --bg-color-gray: #888888;
+    --bg-color-gray-2: #5C5C5C;
+    --text-color-light: #D2D2D2;
+    --text-color-light-2: #E6E6E6; 
+}
+
+html{
+    font-size: clamp(
+        0.75rem,
+        0.65rem + 0.65vw,
+        1.3rem
+    );
+}
+
+body{
+    background-color: #222;
+    font-family: "Stardos Stencil", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
