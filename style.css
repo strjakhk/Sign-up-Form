@@ -98,7 +98,7 @@ body{
 
 .logo h1{
     color: var(--text-color-light);
-    font-style: italic;
+    font-style: normal;
     font-size: 1.6rem;
     text-shadow: 0px 0px 3px black;
 }
