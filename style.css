@@ -24,7 +24,8 @@
     padding: 0px;
 }
 
-.form input{
+.form input,
+.form button{
     appearance: none;
     border-style: none;
     outline-style: none;
@@ -164,5 +165,26 @@ body{
     top: 6px;
     left: 1rem;
     color: var(--bg-color-gray);
+}
+
+.field button{
+    cursor: pointer;
+
+    width: 10rem;
+    height: auto;
+    padding: 0.4rem;
+
+    font-family: inherit;
+    font-size: 1rem;
+    border-radius: 5px;
+ 
+    border: 1px solid var(--bg-color-gray);
+    background-color: var(--bg-color-dark);
+    color: var(--text-color-light);
+}
+
+.field button:hover{
+    background-color: var(--bg-color-gray);
+    color: var(--bg-color-dark);
 }
 
